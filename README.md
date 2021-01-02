@@ -5,7 +5,7 @@ https://github.com/kozielec/CybersecurityProject/blob/main/Diagrams/Project%201.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the `elk_script.yml` may be used to install only certain pieces of it, such as Filebeat.
 
-TODO: Enter the playbook file. elk_script.yml
+https://github.com/kozielec/CybersecurityProject/blob/master/Ansible/elk_script.yml.txt
 
 # This document contains the following details:
 
@@ -113,7 +113,7 @@ Steps of the Elk VM installation:
 
 The following screenshot displays the result of running docker ps after successfully configuring the ELK instance.
 
-TODO: Update the path with the name of your screenshot of docker ps output
+https://github.com/kozielec/CybersecurityProject/blob/master/Images/elk%20docker%20ps.png
 
 # Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -140,7 +140,8 @@ In particular, the ELK stack allows analysts to:
 - Explore the web server logs to see if there's anything unusual, example:  what country produced the majority of the traffic on the website 
 
 
-#How to Use the Ansible Build
+# How to Use the Ansible Build
+
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned:
 
 SSH into the control node and follow the steps below:
@@ -148,7 +149,7 @@ SSH into the control node and follow the steps below:
 Copy the `config_files/filebeat-config.yml` file to `/etc/ansible/files/filebeat-config.yml
 `
 
-Update the filebeat-config.yml file to include :
+Update the `filebeat-config.yml` file to include :
 
 Scroll to line #1106 and replace the IP address with the IP address of your ELK machine.
 
