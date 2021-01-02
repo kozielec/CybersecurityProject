@@ -1,4 +1,4 @@
-	#!/Bin/Bash
+    #!/Bin/Bash
     #Create /Var/Backup If It Doesn'T Exist
     Mkdir -P /Var/Backup
     
